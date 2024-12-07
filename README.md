@@ -67,9 +67,9 @@ python app.py
 - *Email*: Must follow standard email format (e.g., example@domain.com).
 
 ## Screenshots
-- *Main Window*: Shows the contact list with options to Add, Update, Delete, and Search. [Click here]()
-- *Add Contact Form*: A clean and straightforward form to add new contacts. [Click here]()
-- *Update Contact Form*: Pre-filled fields for editing contact details. [Click here]()
+- *Main Window*: Shows the contact list with options to Add, Update, Delete, and Search. [Click here](./screenshots/Main%20Window.png)
+- *Add Contact Form*: A clean and straightforward form to add new contacts. [Click here](./screenshots/Add%20Contact%20Form.png)
+- *Update Contact Form*: Pre-filled fields for editing contact details. [Click here](./screenshots/Update%20Contact%20Form.png)
 
 ## Future Enhancements
 - Export contacts to CSV or Excel.
