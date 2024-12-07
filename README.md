@@ -43,6 +43,7 @@ python app.py
 ```contacts.json```
 - This file stores all the contact data in JSON format.
 - It is automatically created and updated by the application.
+  
 ```./assets/contact-icon.png```
 - This is the icon used for the application window.
 
