@@ -110,7 +110,7 @@ def add_contact():
 
     def create_input_field(label_text, placeholder):
         tk.Label(add_window, text=label_text, font=("ComicSansMS", 12), bg="#f4f6f9", fg="#333333").pack(pady=5, anchor="w", padx=20)
-        entry = tk.Entry(add_window, font=("ComicSansMS", 12), bg="#ffffff", fg="#333333", relief="flat", bd=2)
+        entry = tk.Entry(add_window, font=("ComicSansMS", 12), bg="#000000", fg="#ffffff", relief="flat", bd=2)
         entry.insert(0, placeholder)
         entry.pack(padx=20, pady=5, fill="x")
         return entry
@@ -207,7 +207,7 @@ def update_contact():
 
     def create_input_field(label_text, placeholder):
         tk.Label(update_window, text=label_text, font=("ComicSansMS", 12), bg="#f4f6f9", fg="#333333").pack(pady=5, anchor="w", padx=20)
-        entry = tk.Entry(update_window, font=("ComicSansMS", 12), bg="#ffffff", fg="#333333", relief="flat", bd=2)
+        entry = tk.Entry(update_window, font=("ComicSansMS", 12), bg="#000000", fg="#ffffff", relief="flat", bd=2)
         entry.insert(0, placeholder)
         entry.pack(padx=20, pady=5, fill="x")
         return entry
@@ -299,7 +299,7 @@ def make_button(parent, text, cmd, bg, fg, hover_bg, hover_fg):
 root = tk.Tk()
 root.title("Contact Book")
 root.geometry("888x444")
-root.iconphoto(True, PhotoImage(file='./assets/contact-icon.png'))
+# root.iconphoto(True, PhotoImage(file='./assets/contact-icon.png'))
 root.configure(bg="#f7f9fc")
 
 # Top bar with buttons
