@@ -164,13 +164,13 @@ def update_contact():
         address = address_entry.get()
 
         if not (name):
-            messagebox.showwarning("Warning", "Name is required!")
+            messagebox.showwarning("Warning", "Name cannot be empty!")
             return
         elif not (phone):
-            messagebox.showwarning("Warning", "Phone Number is required!")
+            messagebox.showwarning("Warning", "Phone Number cannot be empty!")
             return
         elif not (email):
-            messagebox.showwarning("Warning", "Email is required!")
+            messagebox.showwarning("Warning", "Email cannot be empty!")
             return
         if (phone):
             if validate_mobile_number(phone):
@@ -299,7 +299,7 @@ def make_button(parent, text, cmd, bg, fg, hover_bg, hover_fg):
 root = tk.Tk()
 root.title("Contact Book")
 root.geometry("888x444")
-root.iconphoto(True, PhotoImage(file='./assets/contact-icon.png'))
+root.iconphoto(True, PhotoImage(file="./assets/contact-icon.png"))
 root.configure(bg="#f7f9fc")
 
 # Top bar with buttons
